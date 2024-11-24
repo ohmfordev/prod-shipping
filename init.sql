@@ -75,3 +75,5 @@ CREATE TABLE cart (
     quantity INT NOT NULL CHECK (quantity > 0),
     added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+#DB
